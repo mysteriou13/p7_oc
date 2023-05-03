@@ -1,0 +1,42 @@
+#footer{
+
+    display: flex;
+    justify-content: space-around;
+
+    position: relative;
+     top:19vh;
+
+     height: 22vh;
+
+    background-color:$black;
+
+
+}
+
+.div_image_footer{
+
+    height: 7vh;
+
+}
+
+.container_footer{
+    
+    position: relative;
+    top: 12px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.text_footer{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+
+    color:$white;
+
+}
