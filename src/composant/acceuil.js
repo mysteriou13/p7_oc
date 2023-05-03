@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import jsonData from '/opt/lampp/htdocs/my-app/src/logements.json';
+import jsonData from '../logements.json';
 
 function Acceuil() {
   const [data] = useState(jsonData);
@@ -12,7 +12,7 @@ function Acceuil() {
 <img  className = "image_acceuil" src={logement.cover} alt={logement.title} />
 </div>
 
-<div>{logement.title}</div>
+<div className = "title_logement"> {logement.title}</div>
 
 </div>
 );
@@ -26,5 +26,7 @@ function Acceuil() {
   
     );
 }
+
+
 
 export default Acceuil;
