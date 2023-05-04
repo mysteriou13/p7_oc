@@ -7,6 +7,8 @@ import Header from './composant/header.js'
 
 import Footer from "./composant/footer" 
 
+import NotFound from "./pages/notfound"
+
 import "./sass/main.scss";
 // On ajoute nos composants
 
@@ -18,6 +20,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/propos" element={<Propos />} />
+        <Route path="*" element={<NotFound />} />
         
       </Routes>
       <Footer />
@@ -25,3 +28,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 )
+
