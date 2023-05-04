@@ -66,7 +66,7 @@ function text_Fiabilité() {
         {textItems.map((item, index) => (
           <div className="item_propos" key={index}>
             <div onClick={() => display_compoment(item.id, item.image_id, item.id_div)} className="barre_propos">
-              <div className="text_barre_propos">  </div>
+              <div className="text_barre_propos"> {item.title} </div>
               <div className="div_vector">
                 <img id={item.image_id} src={image} />
               </div>
