@@ -12,6 +12,19 @@ import NotFound from "./pages/notfound"
 import "./sass/main.scss";
 // On ajoute nos composants
 
+function footer(){
+
+
+  const largeurEcran = window.innerWidth;
+  const largeurElement = largeurEcran * 0.91;
+  const myElement = document.querySelector('#footer');
+  myElement.style.width = `${largeurElement}px`;
+  
+
+
+}
+
+
 ReactDOM.render(
   <React.StrictMode>
  <Router>
@@ -27,5 +40,8 @@ ReactDOM.render(
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
+  
 )
 
+
+footer();
