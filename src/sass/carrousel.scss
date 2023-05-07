@@ -1,0 +1,13 @@
+.carrousel-container {
+  height: 100px; /* hauteur fixe */
+  width: 400px; /* largeur fixe */
+  white-space: nowrap; /* empêcher le retour à la ligne */
+
+
+}
+
+.carrousel {
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content;
+}
