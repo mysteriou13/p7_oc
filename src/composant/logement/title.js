@@ -46,8 +46,23 @@ function Title(props) {
 </div>
 
 <div> 
-    
-    test
+
+<div className = "div_host">    
+
+<div className = "name_host">{props.person.host.name} </div> 
+
+
+<div>
+<img  className = "img_host" src = {props.person.host.picture}/>
+</div>
+
+</div>
+
+<div>
+
+etoile
+</div>
+
 
 </div>
 
