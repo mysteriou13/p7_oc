@@ -6,8 +6,49 @@
 
 }
 
+.div_carrousel{
+
+  display: flex;
+
+}
+
+.img_carrousel{
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
 .carrousel {
   display: flex;
   flex-wrap: nowrap;
   width: fit-content;
+  
+  height: 40vh;
+  width: 100%;
+
+}
+
+
+.carrousel_left{
+
+  position: relative;
+  left: 4%;
+  top: 11vh;
+
+}
+
+.carrousel_right{
+
+  position: relative;
+    top: 13vh;
+    right: 4%;
+
+}
+
+.fleche_right_carrousel{
+
+  transform: rotate(180deg);
+
 }
