@@ -26,9 +26,9 @@ function Carrousel(props) {
     <div className="div_carrousel">
       <div
         className=" carrousel_left carrousel-button"
-        onClick={handlePrevClick}
+       
       >
-        <img className = "fleche_left_carrousel" src = {image} />
+        <img   onClick={handlePrevClick}  className = "fleche_left_carrousel" src = {image} />
       </div>
 
       <div className="carrousel" ref={carrouselRef}>
@@ -44,10 +44,9 @@ function Carrousel(props) {
 
       <div
         className="carrousel_right carrousel-button"
-        onClick={handleNextClick}
        
       >
-         <img className = "fleche_right_carrousel" src = {image} />
+         <img onClick={handleNextClick}  className = "fleche_right_carrousel" src = {image} />
       </div>
     </div>
   );
