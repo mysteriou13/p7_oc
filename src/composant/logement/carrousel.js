@@ -6,6 +6,8 @@ function Carrousel(props) {
   const carrouselRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  console.log("nombre picture",props.person.pictures.length);
+
   const handleNextClick = () => {
     if (currentIndex === props.person.pictures.length - 1) {
       setCurrentIndex(0);

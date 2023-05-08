@@ -1,0 +1,73 @@
+.main_div_logement{
+
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    height: 30vh;
+
+    position: relative;
+
+    top:3vh;
+
+}
+
+.title_logement_page{
+
+    font-size: 36px;
+
+color:$rouge;
+
+
+
+}
+
+.div_tag{
+
+    display: flex;
+    position: relative;
+    top: 18%;
+}
+
+.div_text_tag{
+
+    border-radius: 10px;
+
+    font-size: 14px;
+ 
+    background-color: $rouge;
+    color: $white;
+
+    height: 3.5vh;
+    width: 24%;
+
+    margin-right: 3%;
+
+
+}
+
+.div_logement{
+
+    position: relative;
+    left: 6vh;
+    width: 50%;
+
+}
+
+.text_tag{
+
+    color: $white;
+
+    position: relative;
+    left: 20%;
+    top: -18%;
+
+}
+
+
+.sous_title_logement_page{
+
+    color: $rouge;
+
+    font-size: 18px;
+
+}

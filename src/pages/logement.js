@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import jsonData from '../logements.json';
 import { Link } from 'react-router-dom';
+
 import Carrousel from '../composant/logement/carrousel';
+
+import Title from '../composant/logement/title';
+
 import image from "../image/404.png"
 
 function Logement() {
@@ -34,9 +38,16 @@ function Logement() {
 
   return (
     <div>
+      <div>
       <Carrousel person={logement} />
-      {/* Display additional information about the logement */}
+
+      </div>
+      <div>
+        <Title person={logement}/>
+        </div>      
     </div>
+
+
   );
 }
 
