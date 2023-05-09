@@ -79,7 +79,7 @@ color:$rouge;
 }
 
 .name_host{
-    
+    margin-right: 2%;
     font-size: 18px;
     color: $rouge;
 
@@ -92,5 +92,12 @@ color:$rouge;
 .img_host{
 
     border-radius: 100%;
+
+}
+
+.div_etoile{
+
+    display: flex;
+    justify-content: space-evenly;
 
 }
