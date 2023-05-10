@@ -1,0 +1,40 @@
+
+.barre_description{
+
+color: $white;
+
+background-color: $rouge;
+
+font-size: 18px;
+
+display: flex;
+    justify-content: space-between;
+
+}
+
+
+.div_description{
+
+    background-color: $grey;
+    width: 45%;
+    height: 23vh;
+
+}
+
+.text_description{
+
+    color: $rouge;
+    font-size: 18px;
+
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.composant_description{
+
+    display: flex;
+    justify-content: space-around;
+
+}

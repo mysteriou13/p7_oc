@@ -6,6 +6,8 @@ import Carrousel from '../composant/logement/carrousel';
 
 import Title from '../composant/logement/title';
 
+import Description from '../composant/logement/description';
+
 import image from "../image/404.png"
 
 function Logement() {
@@ -20,13 +22,12 @@ function Logement() {
     setLogement(logement);
   }, [data, name]);
 
-  console.log(logement);
 
   if (!logement) {
     return (
       <div className="div_imagenofound">
         <div className="image_nofound" alt="404 page non">
-          <img src={image} />
+          <img src={image}  alt = "nonfound"/>
         </div>
         <div>
           <p className="text_nofound">Oups! La page que vous demandez n'existe pas.</p>
@@ -43,8 +44,17 @@ function Logement() {
 
       </div>
       <div>
-        <Title person={logement}/>
+        <Title person={logement} />
         </div>      
+
+      <div>
+
+    <Description person={logement} />
+
+      </div>
+
+
+
     </div>
 
 
