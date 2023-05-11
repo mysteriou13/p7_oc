@@ -6,6 +6,7 @@ function Carrousel(props) {
   const carrouselRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  console.log(props.person);
 
   const handleNextClick = () => {
     if (currentIndex === props.person.pictures.length - 1) {
@@ -33,6 +34,10 @@ function Carrousel(props) {
       </div>
 
       <div className="carrousel" ref={carrouselRef}>
+        <div className="carrousel">
+          
+          <div className = "nb_picture"> <div> 1</div> <div>/</div> <div> {props.person.pictures.length-1} </div> </div>
+
         {props.person.pictures.map((item, index) => (
           <img
             key={index}
@@ -41,6 +46,9 @@ function Carrousel(props) {
             style={{ display: index === currentIndex ? "block" : "none" }}
           />
         ))}
+
+        </div>
+
       </div>
 
       <div
