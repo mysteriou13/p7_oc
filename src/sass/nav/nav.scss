@@ -13,6 +13,18 @@ nav{
     position: relative;
     top: 24%;
 
+
+    @media screen and (max-width: $width_mobile ) {
+
+        position: relative;
+    top: 47%;
+    left: -49%;
+
+    font-size: 18px;
+
+
+    }
+
 }
 
 

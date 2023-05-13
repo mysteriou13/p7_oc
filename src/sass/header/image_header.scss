@@ -4,12 +4,27 @@
     height: 29vh;
     top: 3vh;
 
-    @media screen and (max-width: $white_mobile) {
+    @media screen and (max-width: $width_mobile) {
 
-      height: 22vh;
-      width: 167%;
-  
+      height: 17vh;
+   
+      width: 93vw;
+      
      }
+
+ }
+
+ .logo{
+
+
+    @media screen and (max-width: $width_mobile) {
+
+      width: 59%;  
+
+      position: relative;
+      top: 16%;
+
+    }
 
  }
 

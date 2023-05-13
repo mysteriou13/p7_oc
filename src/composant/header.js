@@ -10,7 +10,7 @@ function Header() {
    
       
       <div className = "box_nav">
-    <div> <img src  = {logo}/> </div><div> <nav>  
+    <div> <img className = "logo" src  = {logo}/> </div><div> <nav>  
       
       <div><Link to="/">Accueil</Link> </div> 
      <div> <Link to="/propos">À propos</Link> </div>  </nav> </div></div>
