@@ -4,6 +4,13 @@
     height: 29vh;
     top: 3vh;
 
+    @media screen and (max-width: $white_mobile) {
+
+      height: 22vh;
+      width: 167%;
+  
+     }
+
  }
 
  .img_header {
