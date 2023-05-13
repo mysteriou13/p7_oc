@@ -10,4 +10,11 @@
 
     color:$white;
 
+
+    @media screen and (max-width: $width_mobile) {
+
+        top: -7vw;
+
+    }
+
 }

@@ -4,5 +4,12 @@
     width: 52vh;
       height: 44vh;
   
+
+      @media screen and (max-width: $width_mobile) {
+
+        width: 100%;
+        height: 35vh;
+
+      }
   
   }

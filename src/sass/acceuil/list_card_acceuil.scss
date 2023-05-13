@@ -8,6 +8,14 @@
     display: flex;
     flex-wrap: wrap;
 
+    @media screen and (max-width: $width_mobile) {
+
+        background-color: white;
+
+        display: block;
+
+    }
+
 
 }
 
@@ -32,4 +40,12 @@
     margin-right: 57px;
     margin-top: 3%;
     margin-left: 3%;
+
+
+    @media screen and (max-width: $width_mobile) {
+
+        margin-left: 0%;
+        width: 100%;
+
+    }
 }
