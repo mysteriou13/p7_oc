@@ -8,7 +8,7 @@ function image_acceuil() {
     <div id="container" className="container">
       <img className="img_header" src={image} alt="votre image" />
       <div className="transparent"></div>
-      <div className="text">Chez vous, partout et ailleurs</div>
+      <div className="text">  Chez vous, partout et ailleurs </div>
     </div>
   );
 }
