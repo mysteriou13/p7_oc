@@ -7,16 +7,21 @@ background-color: $rouge;
 
 font-size: 18px;
 
+height: 52px;
+border-radius: 10px;
+
 display: flex;
     justify-content: space-between;
 
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
 .div_description{
 
     background-color: $grey;
-    width: 45%;
+    width: 42%;
     height: 23vh;
 
 }
@@ -27,7 +32,7 @@ display: flex;
     font-size: 18px;
 
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 1%;
 
 }
 
@@ -36,5 +41,14 @@ display: flex;
 
     display: flex;
     justify-content: space-around;
+    width: 102%;
+
+}
+
+.el_barre{
+
+    position: relative;
+
+    top:34%;
 
 }

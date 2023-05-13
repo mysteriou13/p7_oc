@@ -2,8 +2,11 @@
 
     display: flex;
     justify-content: space-between;
-    width: 96%;
-    height: 30vh;
+    width: 98%;
+    height: 15vh;
+
+    margin-top: 1%;
+    margin-bottom: 2%;
 
 }
 
@@ -21,7 +24,7 @@ color:$rouge;
 
     display: flex;
     position: relative;
-    top: 9%;
+    top: 13%;
 }
 
 .div_text_tag{
@@ -44,7 +47,7 @@ color:$rouge;
 .div_logement{
 
     position: relative;
-    left: 6vh;
+    left: 7vh;
     width: 50%;
 
 }
@@ -66,6 +69,9 @@ color:$rouge;
 
     font-size: 18px;
 
+    position: relative;
+    top: 3%;
+
 }
 
 .div_host{
@@ -80,7 +86,7 @@ color:$rouge;
     color: $rouge;
 
     position: relative;
-    top: 6vh;
+    top: 2vh;
     width: 100%;
 
 }
@@ -88,6 +94,7 @@ color:$rouge;
 .img_host{
 
     border-radius: 100%;
+    width: 64px;
 
 }
 
@@ -95,5 +102,7 @@ color:$rouge;
 
     display: flex;
     justify-content: space-evenly;
+
+    margin-top: 10%;
 
 }

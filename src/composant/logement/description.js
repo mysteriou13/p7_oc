@@ -43,8 +43,8 @@ function Description(props) {
       <div id = "div_description" className="div_description">
       <div className='barre_description' onClick={() => display("#text_description","#div_description", "#fleche")}>
 
-          <div>description</div>
-          <div> <img id = "fleche" src={image} alt="fleche" /> </div>
+          <div className = "el_barre" >description</div>
+          <div> <img className = "el_barre" id = "fleche" src={image} alt="fleche" /> </div>
         </div>
         <div id = "text_description" className='text_description'>
           {props.person.description}
@@ -54,8 +54,8 @@ function Description(props) {
 
       <div  id = "div_description1" className="div_description">
         <div className='barre_description' onClick={() => display("#text_description1","#div_description1", "#fleche1")}>
-          <div>equipement </div>
-          <div> <img  id = "fleche1" src={image} alt="fleche" /> </div>
+          <div className ="el_barre">equipement </div>
+          <div> <img  className = "el_barre" id = "fleche1" src={image} alt="fleche" /> </div>
         </div>
         <div id = "text_description1" className='text_description'>
           {liste.map((item, index) => (
