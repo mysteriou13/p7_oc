@@ -6,7 +6,7 @@ function image_propos(){
 
     return(
 
-        <div className = "container">
+        <div className = "image_propos">
         <img className ="img_header" src={image} alt="votre image" />
         <div className ="transparent"></div>
         <div className ="text">  </div>

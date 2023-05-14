@@ -1,0 +1,12 @@
+.image_propos{
+
+    @extend .container;
+
+
+    @media screen and (max-width: $width_mobile) {
+
+        height: 28vh;
+
+    }
+
+}
