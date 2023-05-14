@@ -11,6 +11,14 @@
     width: 100%;
     background-color:$black;
 
+    width: 95vw;
+
+    @media screen and (max-width: $width_mobile) {
+
+        margin-top: 16%;
+
+    }
+
 }
 
 .div_image_footer{
