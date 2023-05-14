@@ -1,5 +1,21 @@
 .image_nofound{
 
     position: relative;
-    left: 32%;
+    left: 23%;
+
+    @media screen and (max-width: $width_mobile) {
+    
+    top: 15vh;
+    left: 14%;
+
+    }
+}
+
+.img_nofound{
+
+    @media screen and (max-width: $width_mobile) {
+    width: 44vw;
+    
+}
+
 }

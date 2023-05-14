@@ -8,7 +8,8 @@ import Title from '../composant/logement/title';
 
 import Description from '../composant/logement/description';
 
-import image from "../image/404.png"
+
+import Notfound from "../composant/notfound"
 
 function Logement() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -25,14 +26,10 @@ function Logement() {
 
   if (!logement) {
     return (
-      <div className="div_imagenofound">
-        <div className="image_nofound" alt="404 page non">
-          <img src={image}  alt = "nonfound"/>
-        </div>
-        <div>
-          <p className="text_nofound">Oups! La page que vous demandez n'existe pas.</p>
-          <Link to="/" className="link">Retourner sur la page d’accueil</Link>
-        </div>
+      <div>
+
+        < Notfound/>
+        
       </div>
     )
   }

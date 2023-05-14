@@ -12,6 +12,18 @@
     bottom: 15.53%;
     width: 100%;
 
+    display: flex;
+
+    @media screen and (max-width: $width_mobile) {
+
+        display: block;
+        
+        font-size: 18px;
+        left:18%;
+        top: 35%;
+
+    }
+
 }
 
 .link{
@@ -23,7 +35,15 @@
     text-decoration: underline;
     position: relative;
     left: 31%;
-    top: 30vh;
+    top: 34vh;
+
+
+
+    @media screen and (max-width: $width_mobile) {
+
+        left:14%;
+
+    }
 
 
 }
@@ -32,3 +52,4 @@
 
     height: 54vh;
 }
+

@@ -1,28 +1,16 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom';
-
-import image from "../image/404.png"
+import Notfound from "../composant/notfound"
 
 
 function notfound(){
 
 return (
   
-    <div className = "div_imagenofound">
-        <div className = "image_nofound" alt = "404 page non">
+    <div>
 
-      <img src = {image} />
+<Notfound />
 
-        </div>
-
-        <div>
-          
-          <p  className = "text_nofound"> Oups! La page que vous demandez n'existe pas. </p>
-
-        <Link to="/" className="link">Retourner sur la page d’accueil</Link>
-
-          </div>
     </div>
 
   )
