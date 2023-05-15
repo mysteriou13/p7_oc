@@ -29,6 +29,14 @@
   height: 40vh;
   width: 100%;
 
+  @media screen and (max-width: $width_mobile) {
+
+    width: 100vw;
+    position: relative;
+    left: -8%;
+
+  }
+
 }
 
 
@@ -38,6 +46,14 @@
   left: 5%;
   top: 14vh;
 
+  @media screen and (max-width: $width_mobile) {
+
+    top:17vh;
+
+    z-index: 1;
+
+  }
+
 }
 
 .carrousel_right{
@@ -46,11 +62,34 @@
     top: 14vh;
     right: 4%;
 
+    @media screen and (max-width: $width_mobile) {
+
+      right: 25vw;
+      top: 17vh;
+
+    }
+
+}
+
+.fleche_left_carrousel{
+
+  @media screen and (max-width: $width_mobile) {
+
+    width: 7vw;
+
+  }
+
 }
 
 .fleche_right_carrousel{
 
   transform: rotate(180deg);
+
+  @media screen and (max-width: $width_mobile) {
+
+    width: 7vw;
+
+  }
 
 }
 
