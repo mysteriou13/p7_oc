@@ -8,6 +8,14 @@
     margin-top: 1%;
     margin-bottom: 2%;
 
+
+    @media screen and (max-width: $width_mobile) {
+
+        display: block;
+        height: 100%;
+
+    }
+
 }
 
 .title_logement_page{
@@ -17,12 +25,20 @@
 color:$rouge;
 
 
+@media screen and (max-width: $width_mobile) {
+
+    margin-top: 5%;
+    margin-bottom: 6%;
+
+}
+
 
 }
 
 .div_tag{
 
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     top: 13%;
 }
@@ -36,10 +52,21 @@ color:$rouge;
     background-color: $rouge;
     color: $white;
 
-    height: 3.5vh;
+   
     width: 24%;
 
     margin-right: 3%;
+
+
+    @media screen and (max-width: $width_mobile) {
+
+        margin-block-start: 2%;
+  
+    width: 39vw;
+
+    height: 8vw;
+
+    }
 
 
 }
@@ -50,6 +77,13 @@ color:$rouge;
     left: 7vh;
     width: 50%;
 
+    @media screen and (max-width: $width_mobile) {
+
+        left: 0vh;
+        width: 90vw;
+
+    }
+
 }
 
 .text_tag{
@@ -59,6 +93,15 @@ color:$rouge;
     position: relative;
     left: 20%;
     top: -18%;
+
+    @media screen and (max-width: $width_mobile) {
+
+       left: 0%;
+       top:-21%;
+
+       margin-left: 10%;
+
+    }
 
 }
 
@@ -72,11 +115,24 @@ color:$rouge;
     position: relative;
     top: 3%;
 
+    @media screen and (max-width: $width_mobile) {
+
+        margin-bottom: 7%;
+
+    }
+
 }
 
 .div_host{
 
     display: flex;
+
+    @media screen and (max-width: $width_mobile) {
+
+        position: relative;
+        top: 4vw;
+
+    }
 
 }
 
@@ -89,12 +145,29 @@ color:$rouge;
     top: 2vh;
     width: 100%;
 
+
+    @media screen and (max-width: $width_mobile) {
+
+        top:0vh;
+        left: 42vw;
+
+    }
+
 }
 
 .img_host{
 
     border-radius: 100%;
     width: 64px;
+
+    @media screen and (max-width: $width_mobile) {
+
+        width: 45px;
+        position: relative;
+        top: 2vw;
+    
+
+    }
 
 }
 
@@ -104,5 +177,39 @@ color:$rouge;
     justify-content: space-evenly;
 
     margin-top: 10%;
+
+    @media screen and (max-width: $width_mobile) {
+
+        justify-content: normal;
+        position: relative;
+        top: -8vh;
+
+
+    }
+
+}
+
+.text_name_host{
+
+
+    @media screen and (max-width: $width_mobile) {
+
+        position: relative;
+        left: 26%;
+        width: 20%;
+        font-size: 15px;
+    
+    }
+    
+}
+
+.etoile{
+
+    @media screen and (max-width: $width_mobile) {
+
+        width: 5vw;
+        margin-right: 1vw;
+
+    }
 
 }

@@ -21,7 +21,7 @@ function Title(props) {
   const listetoile = tab.map((image, index) => {
     return (
       <div key={index}>
-        <img src={image} alt={`Image ${index}`} />
+        <img src={image} className = "etoile" alt={`Image ${index}`} />
       </div>
     );
   });
@@ -43,7 +43,11 @@ function Title(props) {
       </div>
       <div>
         <div className="div_host">
-          <div className="name_host">{props.person.host.name}</div>
+          <div className="name_host">
+            <p className = "text_name_host">
+            {props.person.host.name}
+            </p>
+            </div>
           <div>
             <img className="img_host" src={props.person.host.picture} alt="image" />
           </div>

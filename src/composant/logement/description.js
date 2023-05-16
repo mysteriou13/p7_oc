@@ -23,8 +23,6 @@ if(div.style.display  == "block"){
 
   div.style.display = "block";
 
-  div1.style.height = "23vh";
-
   div2.style.transform = 'rotate(0deg)';
 
 }

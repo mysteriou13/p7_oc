@@ -31,9 +31,10 @@
 
   @media screen and (max-width: $width_mobile) {
 
-    width: 100vw;
+    width: 90vw;
     position: relative;
-    left: -8%;
+    left: -6%;
+
 
   }
 
@@ -64,8 +65,8 @@
 
     @media screen and (max-width: $width_mobile) {
 
-      right: 25vw;
-      top: 17vh;
+      right: 15vw;
+      top: 16.6vh;
 
     }
 
