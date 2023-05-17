@@ -38,6 +38,16 @@
 
   }
 
+
+  @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+    width: 90vw;
+    position: relative;
+    left: -4%;   
+
+
+  }
+
 }
 
 
@@ -55,6 +65,12 @@
 
   }
 
+  @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+    z-index: 1;
+
+  }
+
 }
 
 .carrousel_right{
@@ -67,6 +83,17 @@
 
       right: 15vw;
       top: 16.6vh;
+
+    }
+
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+      position: relative;
+      top: 14vh;
+  
+      right: 15%;
+      z-index: 1;
+
 
     }
 

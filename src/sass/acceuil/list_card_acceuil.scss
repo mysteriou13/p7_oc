@@ -18,6 +18,14 @@
     }
 
 
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+
+        display: block;
+
+    }
+
+
 }
 
 .div_image_acceuil{
@@ -44,6 +52,13 @@
 
 
     @media screen and (max-width: $width_mobile) {
+
+        margin-left: 0%;
+        width: 100%;
+
+    }
+
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
 
         margin-left: 0%;
         width: 100%;

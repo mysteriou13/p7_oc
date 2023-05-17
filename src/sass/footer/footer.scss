@@ -19,6 +19,13 @@
 
     }
 
+    
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+        margin-top: 16%;
+        
+    }
+
 }
 
 .div_image_footer{

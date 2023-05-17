@@ -9,12 +9,14 @@
     margin-bottom: 2%;
 
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile),
+    only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
 
-        display: block;
-        height: 100%;
+ display: block;
+ height: 100%;
 
-    }
+}
+
 
 }
 
@@ -25,7 +27,9 @@
 color:$rouge;
 
 
-@media screen and (max-width: $width_mobile) {
+@media screen and (max-width: $width_mobile),
+only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
 
     margin-top: 5%;
     margin-bottom: 6%;
@@ -41,6 +45,18 @@ color:$rouge;
     flex-wrap: wrap;
     position: relative;
     top: 13%;
+
+
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 68vw;
+
+    }
+
 }
 
 .div_text_tag{
@@ -68,6 +84,17 @@ color:$rouge;
 
     }
 
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+        margin-block-start: 2%;
+  
+        width: 39vw;
+    
+        height: 4vw;
+    
+
+    }
+
 
 }
 
@@ -84,6 +111,12 @@ color:$rouge;
 
     }
 
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+        left: 2vh;
+
+    }
+
 }
 
 .text_tag{
@@ -94,7 +127,9 @@ color:$rouge;
     left: 20%;
     top: -18%;
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile),
+    only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
 
        left: 0%;
        top:-21%;
@@ -115,7 +150,9 @@ color:$rouge;
     position: relative;
     top: 3%;
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile),
+    only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
 
         margin-bottom: 7%;
 
@@ -127,7 +164,9 @@ color:$rouge;
 
     display: flex;
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile),
+    only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
 
         position: relative;
         top: 4vw;
@@ -146,7 +185,9 @@ color:$rouge;
     width: 100%;
 
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile),
+    only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
 
         top:0vh;
         left: 42vw;
@@ -160,7 +201,8 @@ color:$rouge;
     border-radius: 100%;
     width: 64px;
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile){
+
 
         width: 45px;
         position: relative;
@@ -168,6 +210,13 @@ color:$rouge;
     
 
     }
+
+
+    @media  screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+  width: 102px;
+
+}
 
 }
 
@@ -178,11 +227,22 @@ color:$rouge;
 
     margin-top: 10%;
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile){
+
 
         justify-content: normal;
         position: relative;
         top: -8vh;
+
+
+    }
+
+    @media screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+        justify-content: normal;
+        position: relative;
+        top: -12vh;
+        left: 4%;
 
 
     }
@@ -192,7 +252,7 @@ color:$rouge;
 .text_name_host{
 
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile){
 
         position: relative;
         left: 26%;
@@ -200,12 +260,22 @@ color:$rouge;
         font-size: 15px;
     
     }
+
+    @media  screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+        position: relative;
+        left: 26%;
+        width: 20%;
+        font-size: 28px;
+
+    }
     
 }
 
 .etoile{
 
-    @media screen and (max-width: $width_mobile) {
+    @media screen and (max-width: $width_mobile),
+    only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
 
         width: 5vw;
         margin-right: 1vw;

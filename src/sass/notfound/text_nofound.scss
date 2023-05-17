@@ -24,6 +24,16 @@
 
     }
 
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+        display: block;
+        
+        font-size: 35px;
+        left:18%;
+        top: 51%;
+
+    }
+
 }
 
 .link{
@@ -42,6 +52,17 @@
     @media screen and (max-width: $width_mobile) {
 
         left:14%;
+
+    }
+
+
+    @media only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {
+
+        position: relative;
+        left: 14%;
+        top: 34vh;
+        font-size: 5vw;
+    
 
     }
 
