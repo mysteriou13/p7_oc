@@ -11,17 +11,19 @@ var div1 = document.querySelector(id2);
 var div2 = document.querySelector(id3);
 
 
+
 if(div.style.display  == "block"){
 
   div.style.display = "none";
-
-  div1.style.height = "6vh";
 
   div2.style.transform = 'rotate(180deg)';
 
 }else{
 
+
+
   div.style.display = "block";
+
 
   div2.style.transform = 'rotate(0deg)';
 
@@ -37,7 +39,7 @@ function Description(props) {
   
 
   return (
-    <div className="composant_description">
+    <div className="composant_description" id = "composant_description">
       <div id = "div_description" className="div_description">
       <div className='barre_description' onClick={() => display("#text_description","#div_description", "#fleche")}>
 
