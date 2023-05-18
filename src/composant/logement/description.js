@@ -16,6 +16,8 @@ if(div.style.display  == "block"){
 
   div.style.display = "none";
 
+  div1.style.backgroundColor = "white";
+
   div2.style.transform = 'rotate(180deg)';
 
 }else{
