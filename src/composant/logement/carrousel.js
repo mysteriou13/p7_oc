@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import image from "../../image/Vector_left.png";
 
 function Carrousel(props) {
@@ -45,8 +45,24 @@ function Carrousel(props) {
     );
   };
 
+  useEffect(() => {
+    // Access the carrousel element us8%ing the ref
+    
+    const element = document.getElementById("carrousel");
+
+    // Manipulate the element as needed
+    // For example, change the background color
+    
+    if(props.person.pictures.length == 1 ){
+
+    element.style.left = "2%";
+
+    }
+
+  }, []); // Empty dependency array to run the effect only once on mount
+
   return (
-    <div className="div_carrousel">
+    <div id = "div_carrousel" className="div_carrousel">
       {props.person.pictures.length > 1 && (
         <div id="carrousel_left" className="carrousel_left carrousel-button">
           <img
@@ -57,7 +73,7 @@ function Carrousel(props) {
         </div>
       )}
 
-      <div className="carrousel" ref={carrouselRef}>
+      <div id="carrousel" className="carrousel" ref={carrouselRef}>
         <div className="carrousel">
           <div className="nb_picture">
             <div id="nb_increment">1</div>

@@ -10,6 +10,13 @@
 
   display: flex;
 
+  @media screen and (max-width: $width_mobile) {
+
+    position: relative;
+    left: 0%;
+
+  }
+
 }
 
 .img_carrousel{
@@ -129,3 +136,4 @@ display: flex;
     left: 49%;
 
 }
+
