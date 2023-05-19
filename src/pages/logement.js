@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import jsonData from '../logements.json';
-import { Link } from 'react-router-dom';
 
 import Carrousel from '../composant/logement/carrousel';
 
@@ -19,8 +18,20 @@ function Logement() {
   const [logement, setLogement] = useState(null);
 
   useEffect(() => {
+
+   var tab = ["#index", "#propos"];
+
+     for(var a = 0; a<= tab.length-1; a++){
+
+
+          document.querySelector(tab[a]).style.textDecoration = "none";
+
+        
+     }
+
     const logement = data.find((l) => l.id === name);
     setLogement(logement);
+
   }, [data, name]);
 
 

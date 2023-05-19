@@ -6,6 +6,8 @@ import etoile_moin from "../../image/etoile_moin.png";
 function Title(props) {
   var tab = [];
 
+  /* création liste des etoile */
+
   for (var a = 0; a < props.person.rating; a++) {
     tab.push(etoile_plus);
   }
@@ -29,6 +31,7 @@ function Title(props) {
 
 
   return (
+    
     <div className="main_div_logement">
       <div className="div_logement">
         <div className="title_logement_page">{props.person.title}</div>
@@ -41,6 +44,8 @@ function Title(props) {
           ))}
         </div>
       </div>
+
+
       <div>
         <div className="div_host">
           <div className="name_host">

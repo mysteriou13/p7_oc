@@ -31,7 +31,7 @@ function Header() {
   return (
     <header>
       <div className="box_nav">
-        <div>
+        <div className = "div_logo">
           <img className="logo" src={logo} />
         </div>
         <div>

@@ -73,6 +73,8 @@ only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabe
 
     margin-right: 3%;
 
+    height: 3vh;
+
 
     @media screen and (max-width: $width_mobile) {
 
@@ -125,7 +127,15 @@ only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabe
 
     position: relative;
     left: 20%;
-    top: -18%;
+    top: -27%;
+
+    @-moz-document url-prefix() {
+
+        top: -42%;
+
+
+
+    }
 
     @media screen and (max-width: $width_mobile),
     only screen and (min-width: $min_width_tablette) and (max-width: $max_width_tabellette) {

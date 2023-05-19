@@ -42,6 +42,12 @@
     position: relative;
     left: -7%;
 
+    @-moz-document url-prefix() {
+
+      width: 98vw;
+
+  }
+
 
   }
 
@@ -90,6 +96,12 @@
 
       right: 15vw;
       top: 16.6vh;
+
+      @-moz-document url-prefix() {
+
+        right: 22vw;
+
+      }
 
     }
 
